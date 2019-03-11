@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:imdb_flutter_redux/movies/loading.dart';
-import 'package:imdb_flutter_redux/global/colors.dart';
+import 'package:imdb_flutter_redux/presentation/modules/movies/loading.dart';
+import 'package:imdb_flutter_redux/shared/global/colors.dart';
 
 var routes = <String, WidgetBuilder>{
     // LIST ALL ROUTES
