@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:imdb_flutter_redux/global/navigator.dart';
-import 'package:imdb_flutter_redux/global/colors.dart';
+import 'package:imdb_flutter_redux/shared/global/navigator.dart';
+import 'package:imdb_flutter_redux/shared/global/colors.dart';
 
 class LoadingScreen extends StatefulWidget {
     @override
