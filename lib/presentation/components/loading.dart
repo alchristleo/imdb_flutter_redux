@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:imdb_flutter_redux/Global/navigator.dart';
-import 'package:imdb_flutter_redux/Global/colors.dart';
+import 'package:imdb_flutter_redux/global/navigator.dart';
+import 'package:imdb_flutter_redux/global/colors.dart';
 
 class LoadingScreen extends StatefulWidget {
     @override
@@ -13,7 +13,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     @override
     void initState() {
         super.initState();
-        Timer(Duration(seconds: 3), () => MyNavigator.homeRoute(context));
+        Timer(Duration(seconds: 3), () => MyNavigator.home);
     }
 
     @override
@@ -37,10 +37,10 @@ class _LoadingScreenState extends State<LoadingScreen> {
                                     new Text(
                                             "IMDb",
                                             style: new TextStyle(
-                                            color: colorBlack,
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 102
-                                        ),
+                                                color: colorBlack,
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 102
+                                            ),
                                     ),
                                 ],
                             ),
