@@ -28,6 +28,7 @@
 pubspec.lock
 
 # Android related
+**/android/
 local.properties
 gradle-wrapper.jar
 .gradle/
