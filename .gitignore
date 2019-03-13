@@ -35,6 +35,7 @@ gradlew
 gradlew.bat
 
 # iOS/XCode related
+**/ios/
 **/Flutter/App.framework
 **/Flutter/Flutter.framework
 **/Flutter/Generated.xcconfig
@@ -45,4 +46,7 @@ xcuserdata/
 GeneratedPluginRegistrant.h
 GeneratedPluginRegistrant.m
 GeneratedPluginRegistrant.java
-build/
+presentation/build/
+shared/build/
+
+shared/lib/src/api/imdb.dart
